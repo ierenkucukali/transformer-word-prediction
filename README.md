@@ -64,7 +64,7 @@ Example Dataset: You can use Wikipedia dumps, large books, or any natural langua
 
 Everything is clearly commented inside the transformer_layer.py file.
 
-## Run
+## 🚀 Run
 - ```python
   python transformer_layer.py
 
@@ -73,3 +73,8 @@ Load your dataset
 Train the model
 Validate the model
 Report Loss, Perplexity, Accuracy
+
+## 📣 Notes
+If your dataset is too small (<10k tokens), the model will overfit and validation will not improve.
+For good results, use large real-world text.
+GPU recommended if training on bigger datasets.
